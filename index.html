@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Changee Learning Path - 排版技巧</title>
+
+		<meta name="description" content="如何從零開始，利用網路資源訓練成為前端工程師">
+		<meta name="author" content="Mark Wu">
+    <meta property="og:title" content="Changee Learning Path - 排版技巧">
+    <meta property="og:description" content="在網路的時代，我們在開始學習新領域時，可以透過 Google 找到許多學習的「資訊」，然而過多的資訊反而無法判斷什麼才是適合自己的「資源」。現有的學習資源非常豐富，但卻散落在各處，使得「自我學習」時總是花費大量時間在搜尋適合自己的資訊。因此我們希望能夠建立 Changee Learning Path「學習路徑平台」，整合資源與資訊，透過「學習分類帽」、「學習軌跡」、「實體資源」三個主要項目，建立方便自學的「學習路徑平台」。" />
+    <meta property="og:image" content="http://week1.learning-path.info/images/week1-graph.png">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div id="seo-wrapper">
+      <h1>Changee Learning Path - 排版技巧</h1>
+      <p>
+        在網路的時代，我們在開始學習新領域時，可以透過 Google 找到許多學習的「資訊」，然而過多的資訊反而無法判斷什麼才是適合自己的「資源」。現有的學習資源非常豐富，但卻散落在各處，使得「自我學習」時總是花費大量時間在搜尋適合自己的資訊。因此我們希望能夠建立 Changee Learning Path「學習路徑平台」，整合資源與資訊，透過「學習分類帽」、「學習軌跡」、「實體資源」三個主要項目，建立方便自學的「學習路徑平台」。
+      </p>
+      <img src="http://week3.learning-path.info/images/week1-graph.png">
+    </div>
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<section data-background="images/congruent_pentagon.png" data-background-repeat="repeat">
+						<h1>排版技巧</h1>
+						<h3>Box-model, 單欄式, 雙欄式, 定位</h3>
+						<img src="images/learningpath.jpg">
+						<p>
+							<small><a target="_blank" href="https://www.facebook.com/changeeinfo">Changee</a> | <a target="_blank" href="http://learning-path.info">Learning Path</a></small>
+						</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Box-model</h1>
+					</section>
+					<section>
+						<h2>製作一張拍立得照片</h2>
+						<a class="jsbin-embed" href="http://jsbin.com/vezava/2/embed?html,css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+					<section>
+						<h2>Max-width</h2>
+						<a class="jsbin-embed" href="http://jsbin.com/borip/1/embed?html,css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+						<p>Responsive 寬度</p>
+					</section>
+					<section>
+						<h2>Box-sizing: border-box</h2>
+						<a class="jsbin-embed" href="http://jsbin.com/kawej/1/embed?html,css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+						<p>注意拍立得的寬度，用開發工具檢查。</p>
+						<p>padding-box, border-box, content-box</p>
+					</section>
+					<section>
+						<h2>Box-model</h2>
+						<img src="images/box-sizing.png" alt="box-model">
+						<p>實際寬度 vs 設定寬度</p>
+						<p>從開發工具中觀察</p>	
+					</section>
+					<section>
+						<h2>Block 元素水平置中</h2>
+						<a class="jsbin-embed" href="http://jsbin.com/borip/5/embed?css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+						<ul>
+							<li>margin: 0 auto</li>
+							<li>width 要設定</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Positioning</h1>
+					</section>
+					<section>
+						<h2>Relative Positioning</h2>
+						<a class="jsbin-embed" href="http://jsbin.com/yihuc/1/embed?css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+					<section>
+						<h2>Absolute Positioning</h2>
+						<ul>
+							<li>包在 Relative 裡面</li>
+							<li>獨立存在</li>
+						</ul>
+						<a class="jsbin-embed" href="http://jsbin.com/xiluj/1/embed?css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+					<section>
+						<h2>用定位做出固定比例利可拍</h2>
+						<a class="jsbin-embed" href="http://jsbin.com/xeguzi/2/embed?html,css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+					<section>
+						<h2>Fixed Positioning</h2>
+						<ul>
+							<li>永遠固定在頁面上</li>
+						</ul>
+						<a class="jsbin-embed" href="http://jsbin.com/gizup/1/embed?html,css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+					<section>
+						<h2>Float Positioning</h2>
+						<p>文繞圖</p>
+						<a class="jsbin-embed" href="http://jsbin.com/yoteq/1/embed?html,css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+				</section>
+				
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h1>HTML5 語意標籤</h1>
+					</section>
+					<section>
+						<h2>section</h2>
+						<ul>
+							<li>依主題分組的內容</li>
+							<li>可以有一個 header</li>
+							<li>可以有一個 footer</li>
+							<li>section 底下的內容都是相關的</li>
+						</ul>
+					</section>
+					<section>
+						<h2>header</h2>
+						<ul>
+							<li>包含頁面的標題、logo 和導覽輔助</li>
+							<li> section 分組的標題</li>
+						</ul>
+					</section>
+					<section>
+						<h2>footer</h2>
+						<ul>
+							<li>放置有關於頁面的資訊</li>
+							<li>作者、相關資訊和版權宣告等</li>	
+						</ul>
+					</section>
+					<section>
+						<h2>nav</h2>
+						<ul>
+							<li>通常置於 header 之中</li>
+							<li>放置頁面的主要導覽連結</li>
+						</ul>
+					</section>
+					<section>
+						<h2>article</h2>
+						<ul>
+							<li>文件內容很多時，可以作為區分內容之用</li>
+							<li>文章本體</li>
+							<li>相似 section</li>
+						</ul>
+					</section>
+					<section>
+						<h2>aside</h2>
+						<ul>
+							<li>頁面的部分區塊，依靠在內容旁邊</li>
+							<li>側邊欄、引言</li>
+						</ul>
+					</section>
+					<section>
+						<h2>講這麼多，都是為了排版</h2>
+						<img width="650" src="images/building-structure.png" alt="structure">
+						<p>source: <a target="_blank" href="http://learn.shayhowe.com/html-css/getting-to-know-html/">http://learn.shayhowe.com/html-css/getting-to-know-html/</a></p>
+					</section>
+					<section>
+						<h2>還記得上次做的東西嘛</h2>
+						<img width="750" src="images/resume-structure.png" alt="resume">	
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>單欄式、雙欄式排版</h1>
+					</section>
+					<section>
+						<h2>單欄式</h2>
+						<a class="jsbin-embed" href="http://jsbin.com/dubey/1/embed?css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+						<p>Block 水平置中的方法</p>	
+					</section>
+					<section>
+						<h2>雙欄式</h2>
+						<a class="jsbin-embed" href="http://jsbin.com/zugeyi/1/embed?css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+					<section>
+						<h2>多欄式</h2>
+						<a class="jsbin-embed" href="http://jsbin.com/jekoba/1/embed?css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+					<section>
+						<h2>左欄固定，右欄變動</h2>
+						<a class="jsbin-embed" href="http://jsbin.com/gepabi/1/embed?css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+					<section>
+						<h2>Media Query</h2>
+						<ul>
+							<li>不同裝置不同版面</li>
+							<li>這就是 Responsive Web</li>
+						</ul>
+						<a class="jsbin-embed" href="http://jsbin.com/gepabi/2/embed?css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+				</section>
+				<section>
+					<h1>Q&A</h1>
+					<h2><a target="_blank" href="https://www.facebook.com/groups/changee.learningpath/">Facebook 社團</a></h2>
+				</section>
+				
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-51808149-1', 'week1.learning-path.info', {
+            'cookieDomain': 'none'
+        });
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+    </script>
+
+	</body>
+</html>
